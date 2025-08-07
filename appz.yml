@@ -19,7 +19,8 @@ deploy:
   
 
 properties:
-  MYSQL_HOST : "172.20.22.64:3306"
+  MYSQL_HOST : "172.20.22.64"
+  MYSQL_PORT : 3306
   MYSQL_DATABASE : "mydb"
   MYSQL_USER : "web_client"
   MYSQL_PASSWORD:
