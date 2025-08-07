@@ -8,7 +8,7 @@ build:
   env: PROD
   build_file: none
   output_files: output/*.zip
-  image_template: python:3.11
+  image_template: mysqlhealthcheck-0.01
 
 deploy:
   context: tipreprod/PROD
