@@ -1,7 +1,7 @@
 app:
   name: mysql-healthcheck
   code: ECSWEB
-  notify: appzdev@cloudbourne.co
+  notify: ti-alerts@ecloudcontrol.com
 
 build:
   version: 3.11
@@ -23,7 +23,7 @@ deploy:
 
 properties:
   MYSQL_HOST : "172.20.22.64:3306"
-  MYSQL_DATABASE : "ecloudcontrol_com_v3"
+  MYSQL_DATABASE : "mydb"
   MYSQL_USER : "web_client"
   MYSQL_PASSWORD:
      vault: MYSQL_PASSWORD
