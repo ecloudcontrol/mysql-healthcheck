@@ -11,7 +11,7 @@ build:
   image_template: mysqlhealthcheck-0.01
 
 deploy:
-  context: tipreprod/PROD
+  context: alpha/PROD
   type: statefulset
   ingress: none
   replicas: 1
