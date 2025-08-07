@@ -12,12 +12,9 @@ build:
 
 deploy:
   context: alpha/PROD
-  type: statefulset
-  ingress: none
   replicas: 1
-  resources: x-large
   port:
-  - 443
+  - 5000
 
   
 
