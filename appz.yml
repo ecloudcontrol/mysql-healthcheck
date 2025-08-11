@@ -25,4 +25,4 @@ properties:
   MYSQL_USER : "web_client"
   MYSQL_PASSWORD:
      vault: MYSQL_PASSWORD
-  revision : 88
+  revision : 89
