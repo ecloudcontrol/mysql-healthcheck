@@ -15,7 +15,9 @@ deploy:
   replicas: 1
   port:
   - 5000
-
+  tolerations:
+    - key: nodepool
+      operator: Exists
   
 
 properties:
